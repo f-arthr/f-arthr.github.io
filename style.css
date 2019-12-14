@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css?family=Cookie|Lato&display=swap');
+/*
+    font-family: 'Cookie', cursive;
+    font-family: 'Lato', sans-serif;
+*/
+
+body{
+	/*background-image: url("background.gif");*/
+	height: 100vh;
+	background-image: url("background.gif"),
+	linear-gradient(150deg, #3387EE, #045CC0);
+	background-size: auto 100%;
+	background-repeat: no-repeat, no-repeat;
+	background-position: 0% 0%, right;
+}
+
+#imgCouqui{
+	width: 20%;
+	height: auto;
+	min-width: 20%;
+	min-height: 20%;
+}
+
+#warning{
+	background-color: #FAD165;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	position: fixed;
+	bottom: 0px;
+	left: 0;
+	right: 0;
+}
+
+#warning p{
+	text-align: center;
+	color: white;
+	display: inline;
+	margin: 0;
+	vertical-align: middle;
+	font-family: 'Lato', sans-serif;
+}
+
+#closeWarning{
+	color: white;
+	vertical-align: middle;
+	margin: auto;
+}
+
+#placeToClick{
+	position: absolute;
+	left: 100vh;
+	margin-top: 50vh;
+  transform: translateY(-50%);
+}
+
+#txtCouqui{
+	font-family: 'Cookie', cursive;
+	font-size: 2em;
+	color: white;
+}
+
+#btnDonate{
+	right: 8px;
+	position: absolute;
+}
+
+
+html > body .github-btn {
+    background-color: #181616;
+    border-radius: 4px;
+    color: white;
+    display: inline-block;
+    font-family: Helvetica Neue,Helvetica,sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 22px;
+    padding: 5px 7px 3px;
+    position: relative;
+    text-decoration: none;
+}
+html > body .github-btn:hover {
+    background-color: #1d1b1b;
+}
+.github-btn > svg {
+    position: absolute;
+    left: 7px;
+    top: 7px;
+}
+.github-btn > span {
+    margin-left: 19px;
+}
+
+#btnGithub{
+	right: 98px;
+	position: absolute;
+}
