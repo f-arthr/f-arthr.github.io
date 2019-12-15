@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400|Solway&display=swap');
+/*
+    font-family: 'Solway', serif;
+    font-family: 'Roboto', sans-serif;
+*/
+
+html{
+	height: 100vh;
+	background-image: url("images/asterixFirstPage.jpg"),
+	linear-gradient(to right, rgb(195,9,4), rgb(195,9,4));
+	background-size: auto 100%;
+	background-repeat: no-repeat, no-repeat;
+	background-position: 0% 0%, right;
+}
+
+
+header{
+	text-align: center;
+	margin-top: 40vh;
+}
+
+#title{
+	font-family: 'Solway', serif;
+	color: white;
+	font-size: 3em;
+	margin: 10px;
+}
+
+#hook-phrase{
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
+	color: white;
+	margin: 10px;
+	font-size: 1.7em;
+}
+
+/*#scroll-button{
+	display: flex;
+	position: absolute;
+	bottom: 5vh;
+	right: 0;
+	width: 100%;
+	justify-content: center;
+	margin: 0px;
+}*/
+
+/*#linkIcon{
+	color: white;
+	height: 1.2 em;
+	width: auto;
+	margin-top: auto;
+	margin-bottom: auto;
+	padding-left: 1%;
+}*/
+
+/*#text-down{
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
+	font-size: 1em;
+	color: white;
+	margin-top: auto;
+	margin-bottom: auto;
+}*/
+
+#changePage{
+  	display: flex;
+  	position: fixed;
+  	bottom: 1vh;
+  	right: 0;
+  	width: 100%;
+  	justify-content: center;
+  	margin: 0px;
+}
+
+#indicatorsPage{
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
+	font-size: 1em;
+	color: white;
+	margin-top: auto;
+	margin-bottom: auto;
+  min-width: 2.7%;
+  min-height: auto;
+}
+
+.linkIcon{
+	color: white;
+	height: 1.2em;
+	width: auto;
+	margin-top: auto;
+	margin-bottom: auto;
+	padding: 0 1% 0 1%;
+  min-width: 2.7%;
+  min-height: auto;
+}
+
+#inBriefSection{
+	width: 100%;
+	position: absolute;
+	top: 100vh;
+	left: 0px;
+}
+
+#contentShort{
+	color: white;
+	background-color: rgb(233, 180, 76);
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
+	font-size: 1em;
+	width: 99%;
+	padding: 2vh 0px 2vh 1%;
+}
+
+.textShort{
+	padding: 0.35em
+}
