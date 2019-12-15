@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css?family=Courier+Prime:400,700|Roboto:300,400,700&display=swap');
+
+/*
+    font-family: 'Courier Prime', monospace;
+    font-family: 'Roboto', sans-serif;
+*/
+
+/*GENERAL*/
+body {
+  background-color: #FCFCFC;
+}
+
+h1 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  font-size: 2em;
+  text-align: center;
+}
+
+h2 {
+  margin-left: 5%;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 1.5em;
+}
+
+a {
+  text-decoration: none;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/*CLASS*/
+  /* -> in DIRECTLINK div*/
+.directLink {
+  width: 42.5%;
+  margin-left: 5%;
+  height: 21.25vh;
+}
+
+.button {
+  /*general*/
+  display: table;
+  background-color: #FBFBFB;
+  width: 100%;
+  height: calc(100% - 2px);
+  /*border*/
+  border-style: solid;
+  border-color: #E1DCE6;
+  border-width: thin;
+  border-radius: 15px 0 0 15px;
+
+  margin: 0;
+  padding: 0;
+}
+
+.button:hover {
+  transition-duration: 500ms;
+  transform: scale(1.02);
+}
+
+.contentButton {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.button h3 {
+  font-family: 'Courier Prime', monospace;
+  font-weight: 700;
+  font-size: 1.5em;
+  color: #000000;
+  padding-right: 2%;
+  padding-left: 2%;
+}
+
+.button p {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 1em;
+  color: #000000;
+  padding-right: 2%;
+  padding-left: 2%;
+}
+
+  /* -> in GITHUBLINK div*/
+
+.githubLink{
+  width: 7.5%;
+  height: 21.25vh;
+}
+
+.githubButton {
+  background-color: #181616;
+  border-radius: 0 15px 15px 0;
+  display: flex;
+  height: 100%;
+}
+
+.githubButton:hover {
+  transition-duration: 500ms;
+  transform: scale(1.02);
+}
+
+.imgGithub {
+  margin: auto;
+}
