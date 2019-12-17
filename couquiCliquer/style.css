@@ -4,6 +4,28 @@
     font-family: 'Lato', sans-serif;
 */
 
+#turnScreen{
+	height: 100vh;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	background-color: #19211f;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+#logoTurnScreen{
+	margin-top: 50vh;
+  transform: translateY(-50%);
+}
+
+#logoTurnScreen p{
+	font-family: 'Lato', sans-serif;
+	font-size: 1em;
+	color: white;
+}
+
 body{
 	/*background-image: url("background.gif");*/
 	height: 100vh;
