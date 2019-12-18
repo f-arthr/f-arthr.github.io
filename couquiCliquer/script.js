@@ -1,5 +1,7 @@
 var nbrCouqui = 0;
+var mode = "solo"
 window.addEventListener('load', initial);
+
 function initial(){
 	if( navigator.userAgent.match(/iPhone/i)
  || navigator.userAgent.match(/webOS/i)
@@ -11,6 +13,8 @@ function initial(){
  ){
 	 	var le_couqui = document.getElementById('imgCouqui');
 		le_couqui.addEventListener('touchend', displayNbr);
+
+		document.getElementById("playMode").style.display = "block";
   }
  else {
 	 	var le_couqui = document.getElementById('imgCouqui');
@@ -27,6 +31,9 @@ function initial(){
 		document.getElementById("turnScreen").style.display = "none";
 		document.getElementById("screenSizeOk").style.display = "block";
 	}
+
+	var changeMode = document.getElementById('btnChangeMode');
+	changeMode.addEventListener('click', editMode);
 }
 
 function displayNbr(){
@@ -45,4 +52,22 @@ function changePlur() {
 
 function closeWarning(){
 	document.getElementById('warning').style.visibility='hidden';
+}
+
+function editMode(){
+	if (window.mode == "solo"){
+		window.mode = "farmyard"
+		document.getElementById("btnChangeMode").innerHTML = "Switch to <u>Solo</u>";
+	}else if (window.mode == "farmyard") {
+		window.mode = "solo"
+		document.getElementById("btnChangeMode").innerHTML = "Switch to <u>Farmyard</u>";
+	}
+}
+
+function keyIsPressed(){
+	if (window.mode == "farmyard"){
+		window.nbrCouqui = window.nbrCouqui+1;
+		document.getElementById('nbrCouqui').innerHTML = window.nbrCouqui;
+		changePlur();
+	}
 }

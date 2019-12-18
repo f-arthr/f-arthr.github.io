@@ -8,7 +8,7 @@
 	<link rel="stylesheet" href="style.css">
 </head>
 
-<body>
+<body onkeypress="keyIsPressed();">
 	<div id="turnScreen">
 		<div id="logoTurnScreen">
 			<center>
@@ -25,6 +25,11 @@
 
 	<div id="screenSizeOk">
 		<div id="placeToClick">
+			<center>
+				<div id="playMode">
+					<button type="button" id="btnChangeMode">Switch to <u>Farmyard</u></button>
+				</div>
+			</center>
 			<center><img src="cookie.png" alt="Couqui ki fo kicker" id="imgCouqui"></center>
 			<center>
 				<p id="txtCouqui">Vous avez : <br><span id="nbrCouqui">0</span> <span id="motCouqui">couqui</span></p>

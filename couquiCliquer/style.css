@@ -36,6 +36,23 @@ body{
 	background-position: 0% 0%, right;
 }
 
+#playMode{
+	position: relative;
+	top: -10vh;
+	display: inline-block;
+	border: none;
+}
+
+button{
+	border-radius: 0.75vh;
+	text-align: center;
+	font-size: 1em;
+	font-family: 'Lato', sans-serif;
+	color: white;
+	background-color: inherit;
+	border: none;
+}
+
 #imgCouqui{
 	width: 20%;
 	height: auto;
