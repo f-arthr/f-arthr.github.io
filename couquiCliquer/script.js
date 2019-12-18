@@ -14,7 +14,7 @@ function initial(){
 	 	var le_couqui = document.getElementById('imgCouqui');
 		le_couqui.addEventListener('touchend', displayNbr);
 
-		document.getElementById("playMode").style.display = "block";
+		document.getElementById("playMode").style.display = "none";
   }
  else {
 	 	var le_couqui = document.getElementById('imgCouqui');
