@@ -4,28 +4,6 @@
     font-family: 'Lato', sans-serif;
 */
 
-#turnScreen{
-	height: 100vh;
-	width: 100%;
-	margin: 0;
-	padding: 0;
-	background-color: #19211f;
-	position: absolute;
-	top: 0;
-	left: 0;
-}
-
-#logoTurnScreen{
-	margin-top: 50vh;
-  transform: translateY(-50%);
-}
-
-#logoTurnScreen p{
-	font-family: 'Lato', sans-serif;
-	font-size: 1em;
-	color: white;
-}
-
 body{
 	/*background-image: url("background.gif");*/
 	height: 100vh;
@@ -36,28 +14,21 @@ body{
 	background-position: 0% 0%, right;
 }
 
-#playMode{
-	position: relative;
-	top: -10vh;
-	display: inline-block;
-	border: none;
-}
-
-button{
-	border-radius: 0.75vh;
-	text-align: center;
-	font-size: 1em;
-	font-family: 'Lato', sans-serif;
-	color: white;
-	background-color: inherit;
-	border: none;
-}
-
 #imgCouqui{
 	width: 20%;
 	height: auto;
 	min-width: 20%;
 	min-height: 20%;
+}
+
+#imgCouqui:hover{
+	transition-duration: 250ms;
+	transform: scale(1.02);
+}
+
+#imgCouqui:active{
+	transition-duration: 20ms;
+	transform: scale(1.2);
 }
 
 #warning{
