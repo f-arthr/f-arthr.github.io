@@ -56,18 +56,32 @@ function closeWarning(){
 
 function editMode(){
 	if (window.mode == "solo"){
+		window.mode = "multiplayer2"
+		document.getElementById("btnChangeMode").innerHTML = "Switch to <u>3 players</u>";
+	}else if (window.mode == "multiplayer2") {
+		window.mode = "multiplayer3"
+		document.getElementById("btnChangeMode").innerHTML = "Switch to <u>Farmyard</u>";
+	}else if (window.mode == "multiplayer3") {
 		window.mode = "farmyard"
 		document.getElementById("btnChangeMode").innerHTML = "Switch to <u>Solo</u>";
 	}else if (window.mode == "farmyard") {
 		window.mode = "solo"
-		document.getElementById("btnChangeMode").innerHTML = "Switch to <u>Farmyard</u>";
+		document.getElementById("btnChangeMode").innerHTML = "Switch to <u>2 players</u>";
 	}
 }
 
 function keyIsPressed(){
-	if (window.mode == "farmyard"){
-		window.nbrCouqui = window.nbrCouqui+1;
-		document.getElementById('nbrCouqui').innerHTML = window.nbrCouqui;
-		changePlur();
+	if (window.mode == "multiplayer2"){
+		if (event.keyCode == 32) {
+			document.getElementById('imgCouqui').click()
+		}
+	}else if (window.mode == "multiplayer3") {
+		if (event.keyCode == 87) {
+			document.getElementById('imgCouqui').click()
+		}else if (event.keyCode == 78) {
+			document.getElementById('imgCouqui').click()
+		}
+	}else if (window.mode == "farmyard") {
+		document.getElementById('imgCouqui').click()
 	}
 }
