@@ -209,21 +209,6 @@ function initial() {
   var changeMode = document.getElementById('btnChangeMode');
   changeMode.addEventListener('click', editMode);
 
-  //window.addEventListener('click', function(e) {
-  //  if (document.getElementById('boxMenu').contains(e.target)) {
-      // Clicked in box
-  //  } else if (document.getElementById('save-btn').contains(e.target)) {
-      // Clicked in box
-  //  } else {
-  //    document.getElementById('boxMenu').style.display = "none";
-  //  }
-  //});
-
-  //var btnSave = document.getElementById('save-btn');
-  //btnSave.addEventListener('click', function() {
-  //  document.getElementById("boxMenu").style.display = "flex";
-  //})
-
   defineCouquiSec = setInterval(function() {
     window.couquiSec = window.nbrCouqui - window.oldNbrCouqui;
     window.oldNbrCouqui = window.nbrCouqui;
@@ -404,8 +389,8 @@ function buyProcessor() {
 }
 
 function buyAlien() {
-  if (window.nbrCouqui >= 6250) {
-    window.nbrCouqui = window.nbrCouqui - 6250;
+  if (window.nbrCouqui >= 1250) {
+    window.nbrCouqui = window.nbrCouqui - 1250;
     if (window.indent == 1) {
       window.indent = 50;
     } else {

@@ -81,6 +81,10 @@ button{
 	display: inherit;
 }
 
+#iconBonus div div img{
+	cursor: pointer;
+}
+
 #iconWorker, #iconIndent{
 	display: inline-grid;
 	margin-left: 1%;
