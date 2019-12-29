@@ -24,21 +24,73 @@
 	</div>
 
 	<div id="screenSizeOk">
+		<div class="background">
+			<img src="background/0.png" id="bg">
+		</div>
+
 		<div id="placeToClick">
 			<center>
 				<div id="playMode">
 					<button type="button" id="btnChangeMode">Switch to <u>2 players</u></button>
 				</div>
 			</center>
-			<center><img src="cookie.png" alt="Couqui ki fo kicker" id="imgCouqui"></center>
 			<center>
-				<p id="txtCouqui">Vous avez : <br><span id="nbrCouqui">0</span> <span id="motCouqui">couqui</span></p>
+				<div style="display: flex; align-items: center; justify-content: center;">
+					<img src="cookie.png" alt="Couqui ki fo kicker" id="imgCouqui">
+					<div id="iconBonus">
+						<div id="iconIndent">
+							<div id="roller">
+								<img src="images/roller.png" alt="roller" id="imgRoller">
+								<p id="priRoller">50</p>
+							</div>
+							<div id="processor">
+								<img src="images/processor.png" alt="processor" id="imgProcessor">
+								<p id="priProcessor">250</p>
+							</div>
+							<div id="alien">
+								<img src="images/alien.png" alt="alien" id="imgAlien">
+								<p id="priAlien">1250</p>
+							</div>
+						</div>
+						<div id="iconWorker">
+							<div id="cooker">
+								<img src="images/cooker.png" alt="cooker" id="imgCooker">
+								<p id="priCooker">250</p>
+							</div>
+							<div id="robot">
+								<img src="images/robot.png" alt="robot" id="imgRobot">
+								<p id="priRobot">6250</p>
+							</div>
+							<div id="space-ship">
+								<img src="images/space-ship.png" alt="spaceship" id="imgSpaceship">
+								<p id="priSpaceship">31250</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</center>
+			<center>
+				<p id="txtCouqui">You have : <br><span id="nbrCouqui">0</span> <span id="motCouqui">couqui</span></p>
+			</center>
+
+			<center>
+				<label for="file" class="label-file"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-upload" fill="none"
+							stroke="#ffffff" id="iconUpload">
+							<path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4" />
+							<polyline points="17 8 12 3 7 8" />
+							<line x1="12" y1="3" x2="12" y2="15" /></svg></label>
+				<input id="file" class="input-file" type="file" accept="application/JSON" name="backup" onchange="loadBackup()">
+
+				<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-download" id="iconDownload">
+					<path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4" />
+					<polyline points="7 10 12 15 17 10" />
+					<line x1="12" y1="15" x2="12" y2="3" /></svg>
 			</center>
 		</div>
 
 		<div id="warning">
 			<div style="text-align: center;">
-				<p>Ce contenu n'est en aucun cas lié à Cookie Clicker. Ceci est simplement une contrefaçon</p>
+				<p>This content is in no way linked to Cookie Clicker. This is simply a counterfeit.</p>
 				<svg id="closeWarning" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-x-circle">
 					<circle cx="12" cy="12" r="10"></circle>
 					<line x1="15" y1="9" x2="9" y2="15"></line>
@@ -47,8 +99,7 @@
 			</div>
 		</div>
 		<div id="btnDonate">
-			<script src="https://liberapay.com/arthurfontaine/widgets/button.js"></script>
-			<noscript><a href="https://liberapay.com/arthurfontaine/donate"><img alt="Donate using Liberapay" src="https://liberapay.com/assets/widgets/donate.svg"></a></noscript>
+			<a href="https://liberapay.com/arthurfontaine/donate"><img alt="Donate using Liberapay" src="https://liberapay.com/assets/widgets/donate.svg"></a>
 		</div>
 
 		<div id="btnGithub">
