@@ -1,119 +1,167 @@
-@import url('https://fonts.googleapis.com/css?family=Courier+Prime:400,700|Roboto:300,400,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab&display=swap');
 
-/*
-    font-family: 'Courier Prime', monospace;
-    font-family: 'Roboto', sans-serif;
-*/
-
-/*GENERAL*/
-body {
-  background-color: #FCFCFC;
+body{
+  height: 100vh;
+  width: 100vw;
+  margin: 0;
 }
 
-h1 {
-  font-family: 'Roboto', sans-serif;
-  font-weight: 700;
-  font-size: 2em;
-  text-align: center;
+header{
+  display: flex;
+  height: 75%;
+  background-color: #000000;
+  color: white;
+  font-family: 'Roboto Slab', serif;
 }
 
-h2 {
-  margin-left: 5%;
-  padding: 0;
-  font-family: 'Roboto', sans-serif;
-  font-weight: 400;
-  font-size: 1.5em;
+.logo{
+  height: 100%;
+  width: auto;
 }
 
-h3{
-  margin-left: 5%;
-  padding: 0;
-  font-family: 'Roboto', sans-serif;
-  font-weight: 400;
-  font-size: 1.25em;
+.introduce{
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
-a {
+table{
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.social-networks{
+  height: 1.5em;
+}
+
+table{
+  width: 50%;
+  height: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+tr, tbody{
+  width: 100%;
+}
+
+tbody{
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+tr{
+  display: flex;
+}
+
+h1{
+  margin: 0;
+}
+
+td, th{
+  margin-left: auto;
+  margin-right: auto;
+}
+
+a{
+  outline: none;
+}
+
+.text-in-table{
+  display: inline-block;
+  color: #fff;
   text-decoration: none;
 }
 
-.row {
-  display: flex;
-  flex-wrap: wrap;
+.text-in-table::after{
+  content: '';
+  display: block;
+  width: 0;
+  height: 2px;
+  background: #fff;
+  transition: width .3s;
 }
 
-/*CLASS*/
-  /* -> in DIRECTLINK div*/
-.directLink {
-  width: 42.5%;
-  margin-left: 5%;
-  height: 21.25vh;
-}
-
-.button {
-  /*general*/
-  display: table;
-  background-color: #FBFBFB;
+.text-in-table:hover::after{
   width: 100%;
-  height: calc(100% - 2px);
-  /*border*/
-  border-style: solid;
-  border-color: #E1DCE6;
-  border-width: thin;
-  border-radius: 15px 0 0 15px;
+}
 
+section{
+  font-family: 'Open Sans', sans-serif;
+  line-height: 1.17em;
   margin: 0;
-  padding: 0;
 }
 
-.button:hover {
-  transition-duration: 500ms;
-  transform: scale(1.02);
-}
-
-.contentButton {
-  display: table-cell;
-  vertical-align: middle;
-  overflow: hidden;
-}
-
-.button h4 {
-  font-family: 'Courier Prime', monospace;
-  font-weight: 700;
-  font-size: 1.5em;
-  color: #000000;
-  padding-right: 2%;
-  padding-left: 2%;
-}
-
-.button p {
-  font-family: 'Roboto', sans-serif;
-  font-weight: 400;
-  font-size: 1em;
-  color: #000000;
-  padding-right: 2%;
-  padding-left: 2%;
-}
-
-  /* -> in GITHUBLINK div*/
-
-.githubLink{
-  width: 7.5%;
-  height: 21.25vh;
-}
-
-.githubButton {
-  background-color: #181616;
-  border-radius: 0 15px 15px 0;
+section .row{
   display: flex;
+  width: 100vw;
+  justify-content: space-around;
+  margin-top: 5vh;
+  margin-bottom: 5vh;
+}
+
+section .website-article{
+  display: flex;
+  height: 20vh;
+  width: 40vw;
+  background-color: #fafafa;
+  border-radius: 2vh;
+}
+
+section .website-article:hover{
+  transform: scale(1.05);
+  transition: 0.5s;
+}
+
+section .website-article img{
   height: 100%;
+  width: auto;
+  border-radius: 2vh 0 0 2vh;
 }
 
-.githubButton:hover {
-  transition-duration: 500ms;
-  transform: scale(1.02);
+section .website-article svg{
+  height: 1.5em;
+  width: auto;
 }
 
-.imgGithub {
-  margin: auto;
+section .content-website-article{
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+section .content-website-article p{
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 0.75%;
+  margin-right: 0.5%;
+
+  overflow: hidden;
+  width:100%;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+
+section .content-website-article h2{
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 0.75%;
+  margin-right: 0.5%;
+  font-size: 1.5em;
+}
+
+section .buttons{
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+}
+
+section a{
+  color: black;
 }

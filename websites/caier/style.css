@@ -1,0 +1,63 @@
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Bitter&display=swap');
+
+body{
+  width: 100vw;
+  height: calc((29.7*75vw/21) + 10vh);
+
+  margin: 0;
+
+  background-color: #ebe6e6;
+}
+
+.sheet{
+  width: 75vw;
+  height: calc(29.7*75vw/21);
+
+  position: absolute;
+  top: 5vh;
+  left: 50vw;
+  transform: translateX(-50%);
+
+  background-color: #f3f3f3;
+
+  box-shadow: 1vw 1vw 2vw #888888;
+
+  border-radius: 2vh;
+}
+
+.text-box{
+  height: calc(100% - 30vh);
+  width: calc(100% - 30vh);
+  margin: 15vh;
+
+  word-wrap: break-word;
+}
+
+#textarea{
+  height: 100%;
+  width: 100%;
+  background-color: inherit;
+  border-width: 0;
+  resize: none;
+  color: #000000;
+  font-size: 1em;
+  font-family: 'Bitter', serif;
+  overflow: scroll;
+  outline: none;
+}
+
+#darkmode-logo{
+  position: absolute;
+  top: 5vh;
+  right: 5vh;
+  cursor: pointer;
+}
+
+#text-logo{
+  position: absolute;
+  top: calc(5vh + 24px + 5vh);
+  right: 5vh;
+  cursor: pointer;
+}
