@@ -1,0 +1,33 @@
+header{
+  height: 75%;
+}
+
+.logo{
+  height: 100%;
+  width: auto;
+}
+
+table{
+  width: 50%;
+}
+
+.text-in-table::after{
+  content: '';
+  display: block;
+  width: 0;
+  height: 2px;
+  background: #fff;
+  transition: width .3s;
+}
+
+.text-in-table:hover::after{
+  width: 100%;
+}
+
+section .row{
+  width: 100vw;
+}
+
+section .website-article{
+  width: 40vw;
+}

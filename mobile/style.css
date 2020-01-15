@@ -1,0 +1,19 @@
+header{
+  flex-direction: column;
+  height: 100%;
+}
+
+.logo{
+  height: 100vw;
+  width: 100vw;
+}
+
+table{
+  width: 100vw;
+}
+
+section .row{
+  flex-direction: column;
+  margin-left: 5vw;
+  margin-right: 5vw;
+}

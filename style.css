@@ -8,15 +8,12 @@ body{
 
 header{
   display: flex;
-  height: 75%;
   background-color: #000000;
   color: white;
   font-family: 'Roboto Slab', serif;
 }
 
 .logo{
-  height: 100%;
-  width: auto;
 }
 
 .introduce{
@@ -36,7 +33,6 @@ table{
 }
 
 table{
-  width: 50%;
   height: 40%;
   display: flex;
   flex-direction: column;
@@ -77,19 +73,6 @@ a{
   text-decoration: none;
 }
 
-.text-in-table::after{
-  content: '';
-  display: block;
-  width: 0;
-  height: 2px;
-  background: #fff;
-  transition: width .3s;
-}
-
-.text-in-table:hover::after{
-  width: 100%;
-}
-
 section{
   font-family: 'Open Sans', sans-serif;
   line-height: 1.17em;
@@ -98,7 +81,6 @@ section{
 
 section .row{
   display: flex;
-  width: 100vw;
   justify-content: space-around;
   margin-top: 5vh;
   margin-bottom: 5vh;
@@ -107,7 +89,6 @@ section .row{
 section .website-article{
   display: flex;
   height: 20vh;
-  width: 40vw;
   background-color: #fafafa;
   border-radius: 2vh;
 }
@@ -143,7 +124,7 @@ section .content-website-article p{
 
   overflow: hidden;
   width:100%;
-  display: -webkit-box;
+  display: -webkit-box;	
   -webkit-line-clamp: 2;
   -webkit-box-orient: vertical;
 }
