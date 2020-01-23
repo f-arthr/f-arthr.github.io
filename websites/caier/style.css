@@ -45,6 +45,7 @@ body{
   font-size: 1em;
   font-family: 'Bitter', serif;
   overflow: scroll;
+  scrollbar-width: none;
   outline: none;
 }
 
