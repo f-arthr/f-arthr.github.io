@@ -10,33 +10,52 @@ createLink();
 function loadJSON() {
   let string_data = `[
     {
+      "name": "Reactor",
+      "description": "A program for ecobalancing a reaction equation",
+      "runUrl": "https://Reactor.farthr.repl.run",
+      "imageUrl": "",
+      "repoUrl": "https://github.com/f-arthr/Reactor"
+    },
+    {
+      "name": "QAIck",
+      "description": "QAIck is a module to make and, optionnaly, test a simple artificial intelligence ",
+      "runUrl": "https://QAIck.farthr.repl.run",
+      "imageUrl": "",
+      "repoUrl": "https://github.com/f-arthr/QAIck"
+    },
+    {
       "name": "Couqui Cliquer",
       "description": "Official counterfeiting of the game Cookie Clicker (https://orteil.dashnet.org/cookieclicker/) Used to train me in JavaScript",
       "runUrl": "websites/couqui-cliquer/couquiCliquer.html",
+      "imageUrl": "https://66.media.tumblr.com/df204ee7a0af51f5b84ca9d8061624ff/tumblr_nuxnvxvibP1txeruoo2_r2_500.gifv",
       "repoUrl": "https://github.com/f-arthr/Couqui-Cliquer"
     },
     {
       "name": "Caier",
       "description": "Caier, a BEAUTIFUL and PRACTICAL notebook",
       "runUrl": "websites/caier/caier.html",
+      "imageUrl": "",
       "repoUrl": "https://github.com/f-arthr/Caier"
     },
     {
       "name": "David",
       "description": "David is a personalized homepage for myself",
       "runUrl": "websites/david/newtab.html",
+      "imageUrl": "",
       "repoUrl": "https://github.com/f-arthr/David-Homepage"
     },
     {
       "name": "NSI",
       "description": " Codes réalisés en cours d'NSI 1e",
       "runUrl": "",
+      "imageUrl": "",
       "repoUrl": "https://github.com/f-arthr/NSI"
     },
     {
       "name": "Is It Respect Your Privacy?",
       "description": "This program is simply a set of conditions. It gives you some initial information, but it maybe wrongs. Please, read the privacy policy...",
       "runUrl": "https://isitrespectyourprivacy.farthr.repl.run/",
+      "imageUrl": "",
       "repoUrl": "https://github.com/vintonproject/IsItRespectYourPrivacy"
     },
     {

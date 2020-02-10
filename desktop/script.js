@@ -10,6 +10,20 @@ createLink();
 function loadJSON() {
   let string_data = `[
     {
+      "name": "Reactor",
+      "description": "A program for ecobalancing a reaction equation",
+      "runUrl": "https://Reactor.farthr.repl.run",
+      "imageUrl": "",
+      "repoUrl": "https://github.com/f-arthr/Reactor"
+    },
+    {
+      "name": "QAIck",
+      "description": "QAIck is a module to make and, optionnaly, test a simple artificial intelligence ",
+      "runUrl": "https://QAIck.farthr.repl.run",
+      "imageUrl": "",
+      "repoUrl": "https://github.com/f-arthr/QAIck"
+    },
+    {
       "name": "Couqui Cliquer",
       "description": "Official counterfeiting of the game Cookie Clicker (https://orteil.dashnet.org/cookieclicker/) Used to train me in JavaScript",
       "runUrl": "websites/couqui-cliquer/couquiCliquer.html",
