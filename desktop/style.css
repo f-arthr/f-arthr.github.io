@@ -31,3 +31,25 @@ section .row{
 section .website-article{
   width: 40vw;
 }
+
+svg.social-networks{
+  transition: all .3s cubic-bezier(0.47, 0, 0.75, 0.72);
+  filter: invert(0);
+  fill: #000000;
+}
+
+svg.social-networks:hover {
+    filter: invert(1);
+    transition: all .3s cubic-bezier(0.47, 0, 0.75, 0.72);
+}
+
+section .website-article svg{
+  transition: all .3s cubic-bezier(0.47, 0, 0.75, 0.72);
+  filter: invert(0);
+  fill: #fafafa;
+}
+
+section .website-article svg:hover {
+    filter: invert(1);
+    transition: all .3s cubic-bezier(0.47, 0, 0.75, 0.72);
+}

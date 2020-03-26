@@ -10,6 +10,13 @@ createLink();
 function loadJSON() {
   let string_data = `[
     {
+      "name": "fashion_mnist_ai",
+      "description": "Fashion MNIST is an open database indexing clothes. Here, it's the AI based on it and used to recognize clothes.",
+      "runUrl": "https://colab.research.google.com/github/f-arthr/fashion_mnist_ai/blob/master/fashion_mnist_ai.ipynb",
+      "imageUrl": "",
+      "repoUrl": "https://github.com/f-arthr/fashion_mnist_ai"
+    },
+    {
       "name": "Reactor",
       "description": "A program for ecobalancing a reaction equation",
       "runUrl": "https://Reactor.farthr.repl.run",
@@ -22,6 +29,13 @@ function loadJSON() {
       "runUrl": "https://QAIck.farthr.repl.run",
       "imageUrl": "",
       "repoUrl": "https://github.com/f-arthr/QAIck"
+    },
+    {
+      "name": "OpeWS Scrapper",
+      "description": "Chrome Extension to help OpeWS create a new Open Data Base of Web Scraping.",
+      "runUrl": "",
+      "imageUrl": "",
+      "repoUrl": "https://github.com/f-arthr/OpeWS-Scrapper"
     },
     {
       "name": "Couqui Cliquer",

@@ -91,6 +91,8 @@ section .website-article{
   height: 20vh;
   background-color: #fafafa;
   border-radius: 2vh;
+  transform: scale(1);
+  transition: 0.5s;
 }
 
 section .website-article:hover{
@@ -124,7 +126,7 @@ section .content-website-article p{
 
   overflow: hidden;
   width:100%;
-  display: -webkit-box;	
+  display: -webkit-box;
   -webkit-line-clamp: 2;
   -webkit-box-orient: vertical;
 }
