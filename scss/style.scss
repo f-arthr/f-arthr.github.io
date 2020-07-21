@@ -298,7 +298,7 @@ body {
         }
 
         &.skills {
-            height: min-content;
+            display: inline-block;
             
             .skills__content {
                 flex-grow: 1;
