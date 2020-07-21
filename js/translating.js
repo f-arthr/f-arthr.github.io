@@ -9,7 +9,41 @@ var resources = {
                 "medialib": "My media library",
                 "contact": "Contact me"
             },
+            "skills": {
+                "title": "My skills",
+                "frontend": {
+                    "title": "Frontend development"
+                },
+                "backend": {
+                    "title": "Backend development"
+                },
+                "mobile": {
+                    "title": "Mobile application development"
+                },
+                "bdandml": {
+                    "title": "Big Data and Machine Learning"
+                },
+                "uiux": {
+                    "title": "UI / UX Design"
+                },
+                "language": {
+                    "title": "Language",
+                    "items": {
+                        "fr": "French",
+                        "en": "English",
+                        "de": "German",
+                        "es": "Spanish"
+                    }
+                },
+                "others": {
+                    "title": "Others",
+                    "items": {
+                        "bia": "Certificate of Aeronautical Initiation"
+                    }
+                }
+            },
             "experience": {
+                "title": "My experience",
                 "magneti": {
                     "type": "Internship",
                     "theme": "GLOBAL",
@@ -35,6 +69,7 @@ var resources = {
                 },
             },
             "medialib": {
+                "title": "My media library",
                 "innovators": {
                     "type": "Book",
                     "title": "The Innovators",
