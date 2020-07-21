@@ -647,13 +647,15 @@ body {
                 transition: $transition;
 
                 &:hover {
-                    background-color: $color2;
-                    transition: $transition;
-                    transform: scale(1.2);
-
-                    div.svg {
-                        background-color: $color1 !important;
+                    @media (orientation: landscape) {
+                        background-color: $color2;
                         transition: $transition;
+                        transform: scale(1.2);
+
+                        div.svg {
+                            background-color: $color1 !important;
+                            transition: $transition;
+                        }
                     }
                 }
 

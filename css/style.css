@@ -145,7 +145,7 @@ body section.homepage nav ul a li {
   }
 }
 body section.skills {
-  height: min-content;
+  display: inline-block;
 }
 body section.skills .skills__content {
   flex-grow: 1;
@@ -573,14 +573,16 @@ body section.contact a {
   background-color: transparent;
   transition: 0.3s;
 }
-body section.contact a:hover {
-  background-color: #f8fffd;
-  transition: 0.3s;
-  transform: scale(1.2);
-}
-body section.contact a:hover div.svg {
-  background-color: #5946f6 !important;
-  transition: 0.3s;
+@media (orientation: landscape) {
+  body section.contact a:hover {
+    background-color: #f8fffd;
+    transition: 0.3s;
+    transform: scale(1.2);
+  }
+  body section.contact a:hover div.svg {
+    background-color: #5946f6 !important;
+    transition: 0.3s;
+  }
 }
 body section.contact a div.svg {
   padding: 0;
