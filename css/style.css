@@ -115,7 +115,7 @@ body section.homepage nav ul a li {
   line-height: 2rem;
   margin: 0 1rem;
 }
-@media screen and (min-device-width: 30em) {
+@media screen and (min-width: 42em) {
   body section.homepage nav ul a li:hover {
     transform: scale(1.2);
     transition: 0.3s;
@@ -146,6 +146,9 @@ body section.homepage nav ul a li {
 }
 body section.skills {
   display: inline-block;
+  position: relative;
+  height: auto;
+  min-height: 100% !important;
 }
 body section.skills .skills__content {
   flex-grow: 1;
@@ -155,12 +158,12 @@ body section.skills .skills__content {
   height: calc(100vh - 4rem);
   height: calc((var(--vh, 1vh) * 100) - 4rem);
 }
-@media screen and (min-device-width: 30em) {
+@media screen and (min-width: 42em) {
   body section.skills .skills__content {
     display: grid;
   }
 }
-@media screen and (max-device-width: 30em) {
+@media screen and (max-width: 42em) {
   body section.skills .skills__content {
     flex-direction: column;
     width: 100%;
@@ -287,12 +290,12 @@ body section.experience .experience__content div.project {
   color: #f8fffd;
   scroll-snap-align: center;
 }
-@media screen and (min-device-width: 30em) {
+@media screen and (min-width: 42em) {
   body section.experience .experience__content div.project {
     width: 20%;
   }
 }
-@media screen and (max-device-width: 30em) {
+@media screen and (max-width: 42em) {
   body section.experience .experience__content div.project {
     width: 85%;
   }
@@ -303,7 +306,7 @@ body section.experience .experience__content div.project:nth-of-type(1) {
 body section.experience .experience__content div.project:nth-last-of-type(1) {
   margin-right: 0;
 }
-@media screen and (min-device-width: 30em) {
+@media screen and (min-width: 42em) {
   body section.experience .experience__content div.project:hover {
     transition: 0.3s;
     transform: scale(1.05);
@@ -390,6 +393,9 @@ body section.experience .experience__content div.project a.project__more.project
   mask-size: contain;
   -webkit-mask-size: contain;
 }
+body section.experience .experience__content div.project a.project__more.project__report {
+  opacity: 0;
+}
 body section.experience .experience__content div.project a.project__more.project__report div {
   background-color: #f8fffd;
   mask: url(../res/download.svg) no-repeat center;
@@ -419,12 +425,12 @@ body section.medialib .medialib__content .media {
   color: #f8fffd;
   scroll-snap-align: center;
 }
-@media screen and (min-device-width: 30em) {
+@media screen and (min-width: 42em) {
   body section.medialib .medialib__content .media {
     width: 20%;
   }
 }
-@media screen and (max-device-width: 30em) {
+@media screen and (max-width: 42em) {
   body section.medialib .medialib__content .media {
     width: 85%;
   }
@@ -435,7 +441,7 @@ body section.medialib .medialib__content .media:nth-of-type(1) {
 body section.medialib .medialib__content .media:nth-last-of-type(1) {
   margin-right: 0;
 }
-@media screen and (min-device-width: 30em) {
+@media screen and (min-width: 42em) {
   body section.medialib .medialib__content .media:hover {
     transition: 0.3s;
     transform: scale(1.05);
@@ -500,11 +506,41 @@ body section.medialib .medialib__content .media.innovators {
 body section.medialib .medialib__content .media.innovators div.media__image {
   background-image: url(../res/innovators.jpeg);
 }
+body section.medialib .medialib__content .media.the-valley {
+  background-image: linear-gradient(165deg, #00A37A, #00B88A);
+}
+body section.medialib .medialib__content .media.the-valley div.media__image {
+  background-image: url(../res/the-valley.jpg);
+}
 body section.medialib .medialib__content .media.elon-musk {
   background-image: linear-gradient(165deg, #febf6c, #ffc77d);
 }
 body section.medialib .medialib__content .media.elon-musk div.media__image {
   background-image: url(../res/elon-musk.jpg);
+}
+body section.medialib .medialib__content .media.tenet {
+  background-image: linear-gradient(165deg, #30657D, #387794);
+}
+body section.medialib .medialib__content .media.tenet div.media__image {
+  background-image: url(../res/tenet.jpg);
+}
+body section.medialib .medialib__content .media.truman-show {
+  background-image: linear-gradient(165deg, #1E1D1E, #2A282A);
+}
+body section.medialib .medialib__content .media.truman-show div.media__image {
+  background-image: url(../res/the-truman-show.jpg);
+}
+body section.medialib .medialib__content .media.the-last-dance {
+  background-image: linear-gradient(165deg, #B50202, #CA0202);
+}
+body section.medialib .medialib__content .media.the-last-dance div.media__image {
+  background-image: url(../res/the-last-dance.jpg);
+}
+body section.medialib .medialib__content .media.abstract {
+  background-image: linear-gradient(165deg, #0E0E0E, #1F1F1F);
+}
+body section.medialib .medialib__content .media.abstract div.media__image {
+  background-image: url(../res/abstract.jpg);
 }
 body section.medialib .medialib__content .media .media__header h3 {
   overflow: hidden;
@@ -543,6 +579,27 @@ body section.medialib .medialib__content .media .media__more.media__wikipedia di
   mask-size: contain;
   -webkit-mask-size: contain;
 }
+body section.medialib .medialib__content .media .media__more.media__gbooks div {
+  background-color: #f8fffd;
+  mask: url(../res/book.svg) no-repeat center;
+  -webkit-mask: url(../res/book.svg) no-repeat center;
+  mask-size: contain;
+  -webkit-mask-size: contain;
+}
+body section.medialib .medialib__content .media .media__more.media__yt div {
+  background-color: #f8fffd;
+  mask: url(../res/youtube.svg) no-repeat center;
+  -webkit-mask: url(../res/youtube.svg) no-repeat center;
+  mask-size: contain;
+  -webkit-mask-size: contain;
+}
+body section.medialib .medialib__content .media .media__more.media__netflix div {
+  background-color: #f8fffd;
+  mask: url(../res/netflix.svg) no-repeat center;
+  -webkit-mask: url(../res/netflix.svg) no-repeat center;
+  mask-size: contain;
+  -webkit-mask-size: contain;
+}
 body section.contact {
   width: 100%;
   background-color: #5946f6;
@@ -553,14 +610,14 @@ body section.contact {
   flex-direction: row;
   padding: 0;
 }
-@media screen and (min-device-width: 30em) {
+@media screen and (min-width: 42em) {
   body section.contact {
     height: 33vh;
     /* Fallback for browsers that do not support Custom Properties */
     height: calc(var(--vh, 1vh) * 33);
   }
 }
-@media screen and (max-device-width: 30em) {
+@media screen and (max-width: 42em) {
   body section.contact {
     height: 15vh;
     /* Fallback for browsers that do not support Custom Properties */
@@ -573,7 +630,7 @@ body section.contact a {
   background-color: transparent;
   transition: 0.3s;
 }
-@media screen and (min-device-width: 30em) {
+@media screen and (min-width: 42em) {
   body section.contact a:hover {
     background-color: #f8fffd;
     transition: 0.3s;

@@ -73,45 +73,70 @@ var resources = {
                 "innovators": {
                     "type": "Book",
                     "title": "The Innovators",
-                    "more": "See on Wikipedia"
+                    "more": "See on Google Books"
                 },
                 "elon-musk": {
                     "type": "Book",
                     "title": "Elon Musk: Tesla, SpaceX, and the Quest for a Fantastic Future",
-                    "more": "See on Wikipedia"
+                    "more": "See on Google Books"
                 },
                 "steve-jobs": {
                     "type": "Book",
-                    "more": "See on Wikipedia"
+                    "more": "See on Google Books"
                 },
                 "on-m-avait-dit": {
                     "type": "Book",
                     "title": "I was told that it was impossible",
-                    "more": "See on Wikipedia"
+                    "more": "See on Google Books"
                 },
                 "l-art-de-la-victoire": {
                     "type": "Book",
                     "title": "Shoe Dog",
-                    "more": "See on Wikipedia"
+                    "more": "See on Google Books"
                 },
                 "accedez-au-sommet": {
                     "type": "Book",
                     "title": "Get to the top the path is within you",
-                    "more": "See on Wikipedia"
+                    "more": "See on Google Books"
                 },
                 "mark-zuckerberg": {
                     "type": "Book",
-                    "more": "See on Wikipedia"
+                    "more": "See on Google Books"
                 },
                 "permanent-record": {
                     "type": "Book",
                     "title": "Permanent record",
-                    "more": "See on Wikipedia"
+                    "more": "See on Google Books"
                 },
                 "le-monde-selon-amazon": {
                     "type": "Book",
                     "title": "The world according to Amazon",
-                    "more": "See on Wikipedia"
+                    "more": "See on Google Books"
+                },
+                "the-valley": {
+                    "type": "Book",
+                    "title": "The Valley",
+                    "more": "See on Google Books"
+                },
+                "tenet": {
+                    "type": "Movie",
+                    "title": "Tenet",
+                    "more": "Watch on YouTube"
+                },
+                "truman-show": {
+                    "type": "Movie",
+                    "title": "The Truman Show",
+                    "more": "Watch on YouTube"
+                },
+                "the-last-dance": {
+                    "type": "Documentary series",
+                    "title": "The Last Dance",
+                    "more": "Watch on Netflix"
+                },
+                "abstract": {
+                    "type": "Documentary series",
+                    "title": "Abstract",
+                    "more": "Watch on Netflix"
                 }
             }
         }
@@ -190,45 +215,70 @@ var resources = {
                 "innovators": {
                     "type": "Livre",
                     "title": "Les Innovateurs",
-                    "more": "Voir sur Wikipedia"
+                    "more": "Voir sur Google Books"
                 },
                 "elon-musk": {
                     "type": "Livre",
                     "title": "Elon Musk: Tesla, PayPal, SpaceX : l'entrepreneur qui va changer le monde",
-                    "more": "Voir sur Wikipedia"
+                    "more": "Voir sur Google Books"
                 },
                 "steve-jobs": {
                     "type": "Livre",
-                    "more": "Voir sur Wikipedia"
+                    "more": "Voir sur Google Books"
                 },
                 "on-m-avait-dit": {
                     "type": "Livre",
                     "title": "On m'avait dit que c'était impossible",
-                    "more": "Voir sur Wikipedia"
+                    "more": "Voir sur Google Books"
                 },
                 "l-art-de-la-victoire": {
                     "type": "Livre",
                     "title": "L'art de la victoire",
-                    "more": "Voir sur Wikipedia"
+                    "more": "Voir sur Google Books"
                 },
                 "accedez-au-sommet": {
                     "type": "Livre",
                     "title": "Accédez au sommet le chemin est en vous",
-                    "more": "Voir sur Wikipedia"
+                    "more": "Voir sur Google Books"
                 },
                 "mark-zuckerberg": {
                     "type": "Livre",
-                    "more": "Voir sur Wikipedia"
+                    "more": "Voir sur Google Books"
                 },
                 "permanent-record": {
                     "type": "Livre",
                     "title": "Mémoires vives",
-                    "more": "Voir sur Wikipedia"
+                    "more": "Voir sur Google Books"
                 },
                 "le-monde-selon-amazon": {
                     "type": "Livre",
                     "title": "Le monde selon Amazon",
-                    "more": "Voir sur Wikipedia"
+                    "more": "Voir sur Google Books"
+                },
+                "the-valley": {
+                    "type": "Livre",
+                    "title": "The Valley",
+                    "more": "Voir sur Google Books"
+                },
+                "tenet": {
+                    "type": "Film",
+                    "title": "Tenet",
+                    "more": "Regarder sur YouTube"
+                },
+                "truman-show": {
+                    "type": "Film",
+                    "title": "The Truman Show",
+                    "more": "Regarder sur YouTube"
+                },
+                "the-last-dance": {
+                    "type": "Série documentaire",
+                    "title": "The Last Dance",
+                    "more": "Regarder sur Netflix"
+                },
+                "abstract": {
+                    "type": "Série documentaire",
+                    "title": "Abstract",
+                    "more": "Regarder sur Netflix"
                 }
             }
         }
