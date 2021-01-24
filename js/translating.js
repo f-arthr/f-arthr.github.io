@@ -70,7 +70,7 @@ var resources = {
 				hiberfile: {
 					type: 'Contribution',
 					theme: 'JS - WEBCRYPTO',
-					date: 'November 2019',
+					date: 'November 2020',
 					more: 'Go to the website',
 				},
 			},
@@ -219,7 +219,7 @@ var resources = {
 				hiberfile: {
 					type: 'Contribution',
 					theme: 'JS - WEBCRYPTO',
-					date: 'Novembre 2019',
+					date: 'Novembre 2020',
 					more: 'Aller sur le site web',
 				},
 			},
