@@ -315,19 +315,23 @@ body section.experience .experience__content div.project.opews {
 body section.experience .experience__content div.project.opews div.project__image {
   background-image: url(../res/opews.png);
 }
-body section.experience .experience__content div.project.beatter {
-  background-image: linear-gradient(165deg, #e8f1f2, #dee8e9);
+body section.experience .experience__content div.project.quice {
+  background-image: linear-gradient(165deg, #1a1a1a, #1c1c1c);
 }
-body section.experience .experience__content div.project.beatter div.project__image {
-  background-image: url(../res/beatter.png);
+body section.experience .experience__content div.project.quice * {
+  color: #f8fffd;
 }
-body section.experience .experience__content div.project.beatter .project__header, body section.experience .experience__content div.project.beatter section.medialib .medialib__content .media .media__header, body section.medialib .medialib__content .media section.experience .experience__content div.project.beatter .media__header,
-body section.experience .experience__content div.project.beatter .project__more {
-  color: #070002;
+body section.experience .experience__content div.project.quice div.project__image {
+  background-size: 40%;
+  background-image: url(../res/quice.png);
 }
-body section.experience .experience__content div.project.beatter .project__header .project__icon, body section.experience .experience__content div.project.beatter section.medialib .medialib__content .media .media__header .project__icon, body section.medialib .medialib__content .media section.experience .experience__content div.project.beatter .media__header .project__icon,
-body section.experience .experience__content div.project.beatter .project__more .project__icon {
-  background-color: #070002 !important;
+body section.experience .experience__content div.project.quice .project__header, body section.experience .experience__content div.project.quice section.medialib .medialib__content .media .media__header, body section.medialib .medialib__content .media section.experience .experience__content div.project.quice .media__header,
+body section.experience .experience__content div.project.quice .project__more {
+  color: #f8fffd;
+}
+body section.experience .experience__content div.project.quice .project__header .project__icon, body section.experience .experience__content div.project.quice section.medialib .medialib__content .media .media__header .project__icon, body section.medialib .medialib__content .media section.experience .experience__content div.project.quice .media__header .project__icon,
+body section.experience .experience__content div.project.quice .project__more .project__icon {
+  background-color: #f8fffd !important;
 }
 body section.experience .experience__content div.project.hiberfile {
   background-image: linear-gradient(165deg, #f9f9fa, #e9e9e9);

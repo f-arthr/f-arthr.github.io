@@ -56,21 +56,14 @@ var resources = {
 					date: 'June 2019',
 					more: 'Download my report',
 				},
-				beatter: {
+				quice: {
 					type: 'Project',
 					date: 'Since March 2019',
 					more: 'View on GitHub',
 				},
-				opews: {
-					type: 'Project',
-					theme: 'NODEJS - CHROME EXTENSION',
-					date: 'Since June 2019',
-					more: 'View on GitHub',
-				},
 				hiberfile: {
 					type: 'Contribution',
-					theme: 'JS - WEBCRYPTO',
-					date: 'November 2020',
+					date: 'Since November 2020',
 					more: 'Go to the website',
 				},
 			},
@@ -205,21 +198,14 @@ var resources = {
 					date: 'Juin 2019',
 					more: 'Télécharger mon rapport',
 				},
-				beatter: {
+				quice: {
 					type: 'Projet',
 					date: 'Depuis Mars 2019',
 					more: 'Voir sur GitHub',
 				},
-				opews: {
-					type: 'Projet',
-					theme: 'NODEJS - EXTENSION CHROME',
-					date: 'Depuis Juin 2019',
-					more: 'Voir sur GitHub',
-				},
 				hiberfile: {
 					type: 'Contribution',
-					theme: 'JS - WEBCRYPTO',
-					date: 'Novembre 2020',
+					date: 'Depuis Novembre 2020',
 					more: 'Aller sur le site web',
 				},
 			},

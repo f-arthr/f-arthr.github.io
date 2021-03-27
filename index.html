@@ -1,81 +1,81 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<meta charset="utf-8" />
-		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
-		<meta
-			name="description"
-			content="French curious web developer, student and high-tech lover, in a crush on Vue since few moments."
-		/>
-		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<link rel="shortcut icon" href="res/icon96.png" type="image/x-icon" />
-		<title>Arthur Fontaine</title>
-		<link
-			href="https://fonts.googleapis.com/css2?family=Barlow:wght@200;400;700&family=Spectral:ital,wght@1,600&display=swap"
-			rel="stylesheet"
-		/>
-		<link rel="stylesheet" href="css/style.css" />
-	</head>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="description"
+      content="French curious web developer, student and high-tech lover, in a crush on Vue since few moments."
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="shortcut icon" href="res/icon96.png" type="image/x-icon" />
+    <title>Arthur Fontaine</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow:wght@200;400;700&family=Spectral:ital,wght@1,600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
 
-	<body>
-		<section class="homepage" id="homepage" i18n-parent="homepage">
-			<a class="download" href="res/Arthur Fontaine.pdf" target="_blank">
-				<div class="svg download-icon"></div>
-				<p i18n="download"></p>
-			</a>
-			<div class="presentation">
-				<h1>
-					<span>Arthur</span>
-					<br />
-					<span>Fontaine</span>
-				</h1>
-				<h3 i18n="developer"></h3>
-			</div>
+  <body>
+    <section class="homepage" id="homepage" i18n-parent="homepage">
+      <a class="download" href="res/Arthur Fontaine.pdf" target="_blank">
+        <div class="svg download-icon"></div>
+        <p i18n="download"></p>
+      </a>
+      <div class="presentation">
+        <h1>
+          <span>Arthur</span>
+          <br />
+          <span>Fontaine</span>
+        </h1>
+        <h3 i18n="developer"></h3>
+      </div>
 
-			<nav>
-				<ul>
-					<a href="#skills">
-						<li i18n="skills"></li>
-					</a>
-					<a href="#experience">
-						<li i18n="experience"></li>
-					</a>
-					<!-- <a href="#medialib">
+      <nav>
+        <ul>
+          <a href="#skills">
+            <li i18n="skills"></li>
+          </a>
+          <a href="#experience">
+            <li i18n="experience"></li>
+          </a>
+          <!-- <a href="#medialib">
 						<li i18n="medialib"></li>
 					</a> -->
-					<a href="#contact">
-						<li i18n="contact"></li>
-					</a>
-				</ul>
-			</nav>
-		</section>
+          <a href="#contact">
+            <li i18n="contact"></li>
+          </a>
+        </ul>
+      </nav>
+    </section>
 
-		<section class="skills" id="skills" i18n-parent="skills">
-			<h2 i18n="title"></h2>
-			<div class="skills__content">
-				<div class="frontend skill" i18n-parent="frontend">
-					<header>
-						<div class="skill__icon"></div>
-						<h3 i18n="title"></h3>
-					</header>
-					<ul>
-						<li>HTML</li>
-						<li>CSS</li>
-						<li>Sass</li>
-						<li>JavaScript</li>
-						<li>VueJS</li>
-					</ul>
-				</div>
-				<div class="backend skill" i18n-parent="backend">
-					<header>
-						<div class="skill__icon"></div>
-						<h3 i18n="title"></h3>
-					</header>
-					<ul>
-						<li>Firebase</li>
-					</ul>
-				</div>
-				<!-- <div class="mobile skill" i18n-parent="mobile">
+    <section class="skills" id="skills" i18n-parent="skills">
+      <h2 i18n="title"></h2>
+      <div class="skills__content">
+        <div class="frontend skill" i18n-parent="frontend">
+          <header>
+            <div class="skill__icon"></div>
+            <h3 i18n="title"></h3>
+          </header>
+          <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>Sass</li>
+            <li>JavaScript</li>
+            <li>VueJS</li>
+          </ul>
+        </div>
+        <div class="backend skill" i18n-parent="backend">
+          <header>
+            <div class="skill__icon"></div>
+            <h3 i18n="title"></h3>
+          </header>
+          <ul>
+            <li>Firebase</li>
+          </ul>
+        </div>
+        <!-- <div class="mobile skill" i18n-parent="mobile">
                 <header>
                     <div class="skill__icon"></div>
                     <h3 i18n="title"></h3>
@@ -84,148 +84,117 @@
                     <li>Dart / Flutter</li>
                 </ul>
             </div> -->
-				<div class="bdandml skill" i18n-parent="bdandml">
-					<header>
-						<div class="skill__icon"></div>
-						<h3 i18n="title"></h3>
-					</header>
-					<ul>
-						<li>Python</li>
-					</ul>
-				</div>
-				<div class="uiux skill" i18n-parent="uiux">
-					<header>
-						<div class="skill__icon"></div>
-						<h3 i18n="title"></h3>
-					</header>
-					<ul>
-						<li>Figma</li>
-					</ul>
-				</div>
-				<div class="language skill" i18n-parent="language">
-					<header>
-						<div class="skill__icon"></div>
-						<h3 i18n="title"></h3>
-					</header>
-					<ul i18n-parent="items">
-						<li i18n="fr"></li>
-						<li i18n="en"></li>
-						<li i18n="de"></li>
-						<li i18n="es"></li>
-					</ul>
-				</div>
-				<div class="others skill" i18n-parent="others">
-					<header>
-						<div class="skill__icon"></div>
-						<h3 i18n="title"></h3>
-					</header>
-					<ul i18n-parent="items">
-						<li i18n="bia"></li>
-					</ul>
-				</div>
-			</div>
-		</section>
+        <div class="bdandml skill" i18n-parent="bdandml">
+          <header>
+            <div class="skill__icon"></div>
+            <h3 i18n="title"></h3>
+          </header>
+          <ul>
+            <li>Python</li>
+          </ul>
+        </div>
+        <div class="uiux skill" i18n-parent="uiux">
+          <header>
+            <div class="skill__icon"></div>
+            <h3 i18n="title"></h3>
+          </header>
+          <ul>
+            <li>Figma</li>
+          </ul>
+        </div>
+        <div class="language skill" i18n-parent="language">
+          <header>
+            <div class="skill__icon"></div>
+            <h3 i18n="title"></h3>
+          </header>
+          <ul i18n-parent="items">
+            <li i18n="fr"></li>
+            <li i18n="en"></li>
+            <li i18n="de"></li>
+            <li i18n="es"></li>
+          </ul>
+        </div>
+        <div class="others skill" i18n-parent="others">
+          <header>
+            <div class="skill__icon"></div>
+            <h3 i18n="title"></h3>
+          </header>
+          <ul i18n-parent="items">
+            <li i18n="bia"></li>
+          </ul>
+        </div>
+      </div>
+    </section>
 
-		<section class="experience" id="experience" i18n-parent="experience">
-			<h2 i18n="title"></h2>
-			<div class="experience__content">
-				<div class="project magneti" i18n-parent="magneti">
-					<header class="project__header">
-						<p i18n="type"></p>
-						<p i18n="theme"></p>
-						<h3>
-							Magneti Marelli <span>-</span>
-							<span i18n="date"></span>
-						</h3>
-					</header>
-					<div class="project__image"></div>
-					<a
-						href="#"
-						target="_blank"
-						class="project__more project__report"
-					>
-						<div class="project__icon"></div>
-						<p i18n="more"></p>
-					</a>
-				</div>
+    <section class="experience" id="experience" i18n-parent="experience">
+      <h2 i18n="title"></h2>
+      <div class="experience__content">
+        <div class="project quice" i18n-parent="quice">
+          <header class="project__header">
+            <p i18n="type"></p>
+            <p>FULLSTACK</p>
+            <h3>Quice <span>-</span> <span i18n="date"></span></h3>
+          </header>
+          <div class="project__image"></div>
+          <a
+            href="https://github.com/Quice/"
+            target="_blank"
+            class="project__github-btn project__more"
+          >
+            <div class="project__icon"></div>
+            <p i18n="more"></p>
+          </a>
+        </div>
 
-				<div class="project withings" i18n-parent="withings">
-					<header class="project__header">
-						<p i18n="type"></p>
-						<p i18n="theme"></p>
-						<h3>
-							Withings <span>-</span> <span i18n="date"></span>
-						</h3>
-					</header>
-					<div class="project__image"></div>
-					<a
-						href="#"
-						target="_blank"
-						class="project__more project__report"
-					>
-						<div class="project__icon"></div>
-						<p i18n="more"></p>
-					</a>
-				</div>
+        <div class="project hiberfile" i18n-parent="hiberfile">
+          <header class="project__header">
+            <p i18n="type"></p>
+            <p>NUXT.JS - FASTIFY</p>
+            <h3>HiberFile <span>-</span> <span i18n="date"></span></h3>
+          </header>
+          <div class="project__image"></div>
+          <a
+            href="https://hiberfile.com"
+            target="_blank"
+            class="project__goto-btn project__more"
+          >
+            <div class="project__icon"></div>
+            <p i18n="more"></p>
+          </a>
+        </div>
 
-				<div class="project beatter" i18n-parent="beatter">
-					<header class="project__header">
-						<p i18n="type"></p>
-						<p>HTML - CSS - JS - VUEJS - FIGMA (UX & UI)</p>
-						<h3>
-							Beatter <span>-</span> <span i18n="date"></span>
-						</h3>
-					</header>
-					<div class="project__image"></div>
-					<a
-						href="https://github.com/frombeatter/"
-						target="_blank"
-						class="project__github-btn project__more"
-					>
-						<div class="project__icon"></div>
-						<p i18n="more"></p>
-					</a>
-				</div>
+        <div class="project withings" i18n-parent="withings">
+          <header class="project__header">
+            <p i18n="type"></p>
+            <p i18n="theme"></p>
+            <h3>Withings <span>-</span> <span i18n="date"></span></h3>
+          </header>
+          <div class="project__image"></div>
+          <a href="#" target="_blank" class="project__more project__report">
+            <div class="project__icon"></div>
+            <p i18n="more"></p>
+          </a>
+        </div>
 
-				<div class="project opews" i18n-parent="opews">
-					<header class="project__header">
-						<p i18n="type"></p>
-						<p i18n="theme"></p>
-						<h3>Opews <span>-</span> <span i18n="date"></span></h3>
-					</header>
-					<div class="project__image"></div>
-					<a
-						href="https://github.com/OpewsDB"
-						target="_blank"
-						class="project__github-btn project__more"
-					>
-						<div class="project__icon"></div>
-						<p i18n="more"></p>
-					</a>
-				</div>
+        <div class="project magneti" i18n-parent="magneti">
+          <header class="project__header">
+            <p i18n="type"></p>
+            <p i18n="theme"></p>
+            <h3>
+              Magneti Marelli <span>-</span>
+              <span i18n="date"></span>
+            </h3>
+          </header>
+          <div class="project__image"></div>
+          <a href="#" target="_blank" class="project__more project__report">
+            <div class="project__icon"></div>
+            <p i18n="more"></p>
+          </a>
+        </div>
+      </div>
+    </section>
 
-				<div class="project hiberfile" i18n-parent="hiberfile">
-					<header class="project__header">
-						<p i18n="type"></p>
-						<p i18n="theme"></p>
-						<h3>
-							HiberFile <span>-</span> <span i18n="date"></span>
-						</h3>
-					</header>
-					<div class="project__image"></div>
-					<a
-						href="https://hiberfile.com"
-						target="_blank"
-						class="project__goto-btn project__more"
-					>
-						<div class="project__icon"></div>
-						<p i18n="more"></p>
-					</a>
-				</div>
-			</div>
-		</section>
-
-		<!-- <section class="medialib" id="medialib" i18n-parent="medialib">
+    <!-- <section class="medialib" id="medialib" i18n-parent="medialib">
 			<h2 i18n="title"></h2>
 			<div class="medialib__content">
 				<div class="media steve-jobs" i18n-parent="steve-jobs">
@@ -483,27 +452,27 @@
 			</div>
 		</section> -->
 
-		<section class="contact" id="contact">
-			<a href="tel:+33771715509" target="_blank">
-				<div class="svg phone-icon"></div>
-			</a>
-			<a href="mailto:0arthur.fontaine@gmail.com" target="_blank">
-				<div class="svg mail-icon"></div>
-			</a>
-			<a href="https://github.com/f-arthr" target="_blank">
-				<div class="svg github-icon"></div>
-			</a>
-			<a href="https://twitter.com/f_arthr" target="_blank">
-				<div class="svg twitter-icon"></div>
-			</a>
-			<a href="https://medium.com/@rthurfontaine" target="_blank">
-				<div class="svg medium-icon"></div>
-			</a>
-		</section>
+    <section class="contact" id="contact">
+      <a href="tel:+33771715509" target="_blank">
+        <div class="svg phone-icon"></div>
+      </a>
+      <a href="mailto:0arthur.fontaine@gmail.com" target="_blank">
+        <div class="svg mail-icon"></div>
+      </a>
+      <a href="https://github.com/f-arthr" target="_blank">
+        <div class="svg github-icon"></div>
+      </a>
+      <a href="https://twitter.com/f_arthr" target="_blank">
+        <div class="svg twitter-icon"></div>
+      </a>
+      <a href="https://medium.com/@rthurfontaine" target="_blank">
+        <div class="svg medium-icon"></div>
+      </a>
+    </section>
 
-		<script src="js/i18next.js"></script>
-		<script src="js/i18next-lng-detector.js"></script>
-		<script src="js/translating.js"></script>
-		<script src="js/main.js"></script>
-	</body>
+    <script src="js/i18next.js"></script>
+    <script src="js/i18next-lng-detector.js"></script>
+    <script src="js/translating.js"></script>
+    <script src="js/main.js"></script>
+  </body>
 </html>
